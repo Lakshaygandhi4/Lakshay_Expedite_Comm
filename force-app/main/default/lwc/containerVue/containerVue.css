@@ -1,0 +1,20 @@
+div.vue {
+    position: relative;
+    border: solid 1px #ecebea;
+    border-radius: 4px;
+    display: block;
+    padding: 15px 8px 10px 8px;
+    margin-top: 18px;
+}
+
+div.vue:before {
+    content: "Opportunities";
+    color: #005fb2; /* Salesforce blue color */
+    font-size: 16px; /* Adjust the font size as needed */
+    position: absolute;
+    top: -9px;
+    left: 4px;
+    background-color: #e0e6ef; /* Soft light blue background */
+    padding: 0 4px;
+    border-radius: 3px; /* Optional: adds a slight rounding to the corners */
+}
